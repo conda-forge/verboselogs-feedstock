@@ -11,6 +11,18 @@ Summary: Verbose logging level for Python's logging module.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/verboselogs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/verboselogs-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/verboselogs-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/verboselogs-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/verboselogs-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/verboselogs-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/verboselogs/badges/version.svg)](https://anaconda.org/conda-forge/verboselogs)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/verboselogs/badges/downloads.svg)](https://anaconda.org/conda-forge/verboselogs)
+
 Installing verboselogs
 ======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `verboselogs` available on your pl
 ```
 conda search verboselogs --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/verboselogs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/verboselogs-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/verboselogs-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/verboselogs-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/verboselogs-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/verboselogs-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/verboselogs/badges/version.svg)](https://anaconda.org/conda-forge/verboselogs)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/verboselogs/badges/downloads.svg)](https://anaconda.org/conda-forge/verboselogs)
 
 
 Updating verboselogs-feedstock
