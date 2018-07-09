@@ -1,34 +1,34 @@
 {% set version = "1.4" %}
 
 package:
-    name: verboselogs
-    version: {{ version }}
+  name: verboselogs
+  version: {{ version }}
 
 source:
-    fn: verboselogs-{{ version }}.tar.gz
-    url: https://files.pythonhosted.org/packages/cd/b8/d87bbd0eab68c1e13ca7b2a0f38a986ed7f16b006f7bc6115e8043f514fe/verboselogs-1.4.tar.gz
-    md5: 811da460e30f3abd51ada927d6da8b48
+  url: https://pypi.io/packages/source/v/verboselogs/verboselogs-{{ version }}.tar.gz
+  sha256: 1a3b30956f6a1b8eeb69c9a57b4be96665469be49d4931096f2ece415206c357
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  number: 1
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
+  build:
+    - python
+    - pip
+  run:
+    - python
 
 test:
-    imports:
-        - verboselogs
+  imports:
+    - verboselogs
 
 about:
-    home: https://verboselogs.readthedocs.io
-    license: MIT
-    summary: "Verbose logging level for Python's logging module."
+  home: https://verboselogs.readthedocs.io
+  license: MIT
+  summary: "Verbose logging level for Python's logging module."
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
+  recipe-maintainers:
+    - ocefpaf
