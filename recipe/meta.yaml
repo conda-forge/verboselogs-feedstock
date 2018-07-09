@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/v/verboselogs/verboselogs-{{ version }}.tar.gz
-  sha256: e33ddedcdfdafcb3a174701150430b11b46ceb64c2a9a26198c76a156568e427
+  sha256: 1a3b30956f6a1b8eeb69c9a57b4be96665469be49d4931096f2ece415206c357
 
 build:
   noarch: python
