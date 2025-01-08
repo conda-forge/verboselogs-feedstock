@@ -29,6 +29,7 @@ test:
 about:
   home: https://verboselogs.readthedocs.io
   license: MIT
+  license_file: LICENSE.txt
   summary: "Verbose logging level for Python's logging module."
 
 extra:
